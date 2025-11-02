@@ -1,0 +1,649 @@
+machines:
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: '333'
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '66'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: '898'
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: Prasad
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 7
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: MAH
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: 7
+    source_switch: Switch-7
+    column: 9
+    bay: Bay-6
+    section: Turret
+  - name: CNC-1
+    ip: 192.168.87.1
+    gateway: 192.168.87.1
+    kiosk_pc: 192.168.1.201
+    uplink: 6
+    source_switch: Switch-1
+    column: 5
+    bay: Bay-5
+    section: HMC
+  - name: CNC-2
+    ip: 192.168.1.5
+    gateway: 192.168.1.1
+    kiosk_pc: 192.168.1.1
+    uplink: '6'
+    source_switch: Switch-7
+    column: '88'
+    bay: Bay-6
+    section: Turret
